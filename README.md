@@ -1,0 +1,2 @@
+# UBiMAXQuMengAdapter
+pod 'UBiMAXQuMengAdapter'
