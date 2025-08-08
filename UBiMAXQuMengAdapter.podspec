@@ -11,10 +11,10 @@ Pod::Spec.new do |s|
 
   s.static_framework = true
   s.vendored_frameworks = 'UBiMAXQuMengAdapter.framework'
-  
+
   s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64',
     'OTHER_LINK_FLAG' => '$(inherited) -ObjC' }
-  
+
   s.dependency 'UBiMAXAdSDK'
   s.dependency 'UBiMAXNative'
   s.dependency 'QuMengAdSDK', '1.3.5'
